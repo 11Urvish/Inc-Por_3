@@ -1,0 +1,19 @@
+yarn typeorm migration:create src/database/migrations/CreateUserTable
+
+yarn typeorm migration:create src/database/migrations/CreateCompanyTable
+
+yarn typeorm migration:create src/database/migrations/CreateCustomerTable
+
+yarn typeorm migration:create src/database/migrations/CreateCustomerPolicyDocTable
+
+yarn typeorm migration:create src/database/migrations/CreateCustomerPolicyTable
+
+yarn typeorm migration:create src/database/migrations/CreatePolicySubTypesTable
+
+yarn typeorm migration:create src/database/migrations/CreatePolicyTypesTable
+
+yarn typeorm migration:create src/database/migrations/CreateCountryTable
+
+yarn typeorm migration:create src/database/migrations/CreateStateTable
+
+yarn typeorm -- -d ./src/database/data-source.ts migration:run

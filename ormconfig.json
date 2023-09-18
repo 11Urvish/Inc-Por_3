@@ -1,0 +1,16 @@
+{
+  "type": "mysql",
+  "host": "db-mysql-fra1-89326-do-user-14211676-0.b.db.ondigitalocean.com",
+  "port": 25060,
+  "username": "doadmin",
+  "password": "AVNS_Jn1x50A661FjUBcMCqP",
+  "database": "insurance_docs_portal_db",
+  "entities": ["src/entities/*.ts"],
+  "migrations": ["src/migrations/*.ts"],
+  "synchronize": true,
+  "logging": true,
+  "cli": {
+    "entitiesDir": "src/entities",
+    "migrationsDir": "src/migrations"
+  }
+}

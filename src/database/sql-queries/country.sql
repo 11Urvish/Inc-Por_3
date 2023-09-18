@@ -1,0 +1,2 @@
+INSERT INTO insurance_docs_portal_db.country (id, name, code,currency,currencySymbol,capital,continent,countryPhoneCode,status)
+VALUES (1, 'United States','US','USD','$','Washington D.C','North America',+1, true)

@@ -1,0 +1,9 @@
+POST http://localhost:8085/api/user
+content-type: application/json
+
+{
+    "name": "Kanha Yadav",
+    "email": "kanha@gmail.com",
+    "password": "Admin@123",
+    "role": "super_admin"
+}
